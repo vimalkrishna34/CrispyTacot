@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Le Vantage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-color: #000000;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html" style="font-family:Baskerville; ">Le Vantage</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="our menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Our Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Dine In</a></li>
+                            <li><a class="dropdown-item" href="#">Delivery</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="/our menu.html">Our Menu</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hours & locations.html">Hours & Locations</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <button type="button" class="btn btn-outline-light" data-toggle="modal"
+                        data-target="#reservationModal">
+                        Reserve a Table
+                    </button>
+                    <div class="modal fade" id="reservationModal" tabindex="-1" role="dialog"
+                        aria-labelledby="reservationModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-center" id="reservationModalLabel"
+                                        style="font-family:Baskerville; color:#C4A484; text-align: center;">Table
+                                        Reservation</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+
+                                    <form>
+                                        <div class="form-group" style="font-family:Baskerville; color:#C4A484">
+                                            <label for="name">Name</label>
+                                            <input type="text" class="form-control" id="name"
+                                                placeholder="Enter your name">
+                                        </div>
+                                        <div class="form-group" style="font-family:Baskerville; color:#C4A484">
+                                            <label for="email">Email address</label>
+                                            <input type="email" class="form-control" id="email"
+                                                placeholder="Enter your email">
+                                        </div>
+                                        <div class="form-group" style="font-family:Baskerville; color:#C4A484">
+                                            <label for="date">Date</label>
+                                            <input type="date" class="form-control" id="date">
+                                        </div>
+                                        <div class="form-group" style="font-family:Baskerville; color:#C4A484">
+                                            <label for="time">Time</label>
+                                            <input type="time" class="form-control" id="time">
+                                        </div>
+                                        <div class="form-group" style="font-family:Baskerville; color:#C4A484">
+                                            <label for="guests">Number of Guests</label>
+                                            <input type="number" class="form-control" id="guests" min="1">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-light">Reserve</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <img src="res11.jpg" alt="" class="img-fluid">
+    </div>
+    <div class="container my-4">
+        <h1 class="text-center mb-5" style="font-family:Baskerville; color:#C4A484;">Our Menu</h1>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="menu-section">
+                    <h2 class="text-center" style="font-family:Baskerville; color:#C4A484"><U>Appetizers</U></h2>
+                    <div class="menu-item">
+                        <h3 class="text-center" style="font-family:Baskerville; color:#c7beb4">Truffle Risotto</h3>
+                        <p class="text-center" style="font-family:Baskerville; color:#c7beb4">Arborio rice cooked in a
+                            rich truffle-infused broth,<br>finished with Parmesan cheese and fresh truffle shavings.</p>
+                        <p class="text-center" style="font-family:Baskerville; color:#c7beb4">-1800 RS</p>
+                    </div>
+                    <div class="menu-item">
+                        <h3 class="text-center" style="font-family:Baskerville; color:#c7beb4">Foie Gras Terrine</h3>
+                        <p class="text-center" style="font-family:Baskerville; color:#c7beb4">Velvety foie gras terrine
+                            served with toasted brioche<br>and a tangy cherry compote.</p>
+                        <p class="text-center" style="font-family:Baskerville; color:#c7beb4">-2200 RS</p>
+                    </div>
+
+                </div>
+
+
+                <div class="menu-section">
+                    <h2 class="text-center" style="font-family:Baskerville; color:#C4A484"><U><br>Soups</U></h2>
+                    <div class="menu-item">
+                        <h3 class="text-center" style="font-family:Baskerville; color:#c7beb4">Lobster Bisque</h3>
+                        <p class="text-center" style="font-family:Baskerville; color:#c7beb4">Rich and creamy lobster
+                            bisque infused with brandy<br>and garnished with lobster chunks.</p>
+                        <p class="text-center" style="font-family:Baskerville; color:#c7beb4">-2400 RS</p>
+                    </div>
+                    <div class="menu-item">
+                        <h3 class="text-center" style="font-family:Baskerville; color:#c7beb4">Wild Mushroom Soup</h3>
+                        <p class="text-center" style="font-family:Baskerville; color:#c7beb4">A velvety blend of wild
+                            mushrooms and herbs,<br>finished with a drizzle of truffle oil.</p>
+                        <p class="text-center" style="font-family:Baskerville; color:#c7beb4">-1600 RS</p>
+                    </div>
+
+                </div>
+
+
+                <div class="menu-section">
+                    <h2 class="text-center" style="font-family:Baskerville; color:#C4A484"><U><br>Salads</U></h2>
+                    <div class="menu-item">
+                        <h3 class="text-center" style="font-family:Baskerville; color:#c7beb4">Caesar Salad</h3>
+                        <p class="text-center" style="font-family:Baskerville; color:#c7beb4">Crisp romaine lettuce
+                            tossed in a classic<br>Caesar dressing with garlic croutons and shaved Parmesan.</p>
+                        <p class="text-center" style="font-family:Baskerville; color:#c7beb4">1400 RS</p>
+                    </div>
+                    <div class="menu-item">
+                        <h3 class="text-center" style="font-family:Baskerville; color:#c7beb4">Caprese Salad</h3>
+                        <p class="text-center" style="font-family:Baskerville; color:#c7beb4">Vine-ripened tomatoes,
+                            fresh mozzarella,<br>and basil leaves drizzled with balsamic glaze and olive oil.</p>
+                        <p class="text-center" style="font-family:Baskerville; color:#c7beb4">-1800 RS</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="menu-section">
+                    <h2 class="text-center" style="font-family:Baskerville; color:#C4A484"><U>Main Courses</U></h2>
+                    <div class="menu-item">
+                        <h3 class="text-center" style="font-family:Baskerville; color:#c7beb4">Chateaubriand Steak</h3>
+                        <p class="text-center" style="font-family:Baskerville; color:#c7beb4">Tender Chateaubriand steak
+                            served with truffle<br>mashed potatoes and sautéed wild mushrooms.</p>
+                        <p class="text-center" style="font-family:Baskerville; color:#c7beb4">-4500 RS</p>
+                    </div>
+                    <div class="menu-item">
+                        <h3 class="text-center" style="font-family:Baskerville; color:#c7beb4">Seared Sea Bass</h3>
+                        <p class="text-center" style="font-family:Baskerville; color:#c7beb4">Butter-poached sea bass
+                            served atop a bed of<br>saffron risotto, garnished with citrus gremolata.</p>
+                        <p class="text-center" style="font-family:Baskerville; color:#c7beb4">-3800 RS</p>
+                    </div>
+
+                </div>
+
+
+                <div class="menu-section">
+                    <h2 class="text-center" style="font-family:Baskerville; color:#C4A484"><U><br>Desserts</U></h2>
+                    <div class="menu-item">
+                        <h3 class="text-center" style="font-family:Baskerville; color:#c7beb4">Chocolate Fondant</h3>
+                        <p class="text-center" style="font-family:Baskerville; color:#c7beb4;">Decadent chocolate
+                            fondant with a molten<br>center, served with vanilla bean ice cream and raspberry coulis.
+                        </p>
+                        <p class="text-center" style="font-family:Baskerville; color:#c7beb4">-1400 RS</p>
+                    </div>
+                    <div class="menu-item">
+                        <h3 class="text-center" style="font-family:Baskerville; color:#c7beb4">Lemon Meringue Tart</h3>
+                        <p class="text-center" style="font-family:Baskerville; color:#c7beb4">Tangy lemon curd in a
+                            buttery tart shell,<br>topped with fluffy meringue and torched to perfection.</p>
+                        <p class="text-center" style="font-family:Baskerville; color:#c7beb4">-1200 RS</p>
+                    </div>
+
+                </div>
+
+
+                <div class="menu-section">
+                    <h2 class="text-center" style="font-family:Baskerville; color:#C4A484"><U><br>Drinks</U></h2>
+                    <div class="menu-item">
+                        <h3 class="text-center" style="font-family:Baskerville; color:#c7beb4">Old Fashioned</h3>
+                        <p class="text-center" style="font-family:Baskerville; color:#c7beb4">Bourbon whiskey, sugar,
+                            Angostura bitters,<br>and a twist of orange zest.</p>
+                        <p class="text-center" style="font-family:Baskerville; color:#c7beb4">-1600 RS</p>
+                    </div>
+                    <div class="menu-item">
+                        <h3 class="text-center" style="font-family:Baskerville; color:#c7beb4">French 75</h3>
+                        <p class="text-center" style="font-family:Baskerville; color:#c7beb4">Gin, champagne, lemon
+                            juice,<br>and simple syrup.</p>
+                        <p class="text-center" style="font-family:Baskerville; color:#c7beb4">-1800 RS</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    </div>
+    <footer class="py-7 py-md-9 bg-dark" style="padding-top:30px;">
+        <div class="container px-4">
+            <div class="row gx-7">
+                <div class="col-sm-4">
+                    <h5 class="text-xs text-light mb-n2 text-center"
+                        style="font-family:Baskerville; padding-top: 15px; text-align:left;">About Us
+                    </h5>
+
+                    <p class="mb-6 text-light text-center" style="font-family:Baskerville;">
+                        Discover culinary excellence and luxury dining at Le Vantage. Impeccable service, exquisite
+                        cuisine,
+                        unforgettable experiences.
+                    </p>
+
+                </div>
+                <div class="col-sm-4">
+
+                    <h5 class="text-xs text-light text-center" style="font-family:Baskerville; padding-top: 15px;">
+                        Address
+                    </h5>
+                    <p class="text-xs text-light text-center" style="font-family:Baskerville;">1st 25, 9, 30-1, Waltair
+                        Main Rd, Above PMJ Jewellwers,<br>Siripuram, Visakhapatnam, Andhra Pradesh 530003</p>
+                    <h5 class="text-xs text-light text-center" style="font-family:Baskerville; padding-top: 15px;">
+                        Contact info
+                    </h5>
+                    <p class="text-xs text-light text-center" style="font-family:Baskerville;">6303362328</p>
+
+                </div>
+                <div class="col-sm-4">
+
+                    <h5 class="text-xs text-light text-center" style="font-family:Baskerville; padding-top: 15px;">
+                        Opening hours
+                    </h5>
+
+
+                    <div class="mb-3">
+                        <div class="text-xs text-light text-center" style="font-family:Baskerville;">Monday - Thursday
+                        </div>
+                        <div class="font-serif text-light text-center" style="font-family:Baskerville;">10:00 AM - 11:00
+                            PM</div>
+                    </div>
+
+
+                    <div class="mb-6">
+                        <div class="text-xs text-light text-center" style="font-family:Baskerville;">Friday - Sunday
+                        </div>
+                        <div class="font-serif text-light text-center"
+                            style="font-family:Baskerville; padding-bottom:20px;">12:00 AM - 03:00 AM</div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

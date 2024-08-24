@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Le Vantage</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+  <style>
+    body {
+      background-color: #000000;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/index.html" style="font-family:Baskerville; color:#bfac9a">CRISPY TACO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/our menu.html">Menu</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Our Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Dine In</a></li>
+              <li><a class="dropdown-item" href="#">Delivery</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="/our menu.html">Our Menu</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hours & locations.html">Hours & Locations</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#reservationModal">
+            Reserve a Table
+          </button>
+          <div class="modal fade" id="reservationModal" tabindex="-1" role="dialog"
+            aria-labelledby="reservationModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title text-center" id="reservationModalLabel"
+                    style="font-family:Baskerville; color:#C4A484; text-align: center;">Table Reservation</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+
+                  <form>
+                    <div class="form-group" style="font-family:Baskerville; color:#C4A484">
+                      <label for="name">Name</label>
+                      <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group" style="font-family:Baskerville; color:#C4A484">
+                      <label for="email">Email address</label>
+                      <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group" style="font-family:Baskerville; color:#C4A484">
+                      <label for="date">Date</label>
+                      <input type="date" class="form-control" id="date">
+                    </div>
+                    <div class="form-group" style="font-family:Baskerville; color:#C4A484">
+                      <label for="time">Time</label>
+                      <input type="time" class="form-control" id="time">
+                    </div>
+                    <div class="form-group" style="font-family:Baskerville; color:#C4A484">
+                      <label for="guests">Number of Guests</label>
+                      <input type="number" class="form-control" id="guests" min="1">
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-light">Reserve</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </form>
+      </div>
+    </div>
+  </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12"><img src="glenov-brankovic-e4B5AvA7Jqo-unsplash.jpg"
+                    class="img-fluid bg-dark" alt=""></div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                <h1 class="" style="font-family:Baskerville; color:#C4A484; text-align: center; padding-top: 50px;">More
+                    than
+                    just ingredients, we cultivate connections. Let us tell you ours</h1>
+                <p class="" style="font-family:Baskerville; text-align: center; color:#c7beb4; padding-top: 20px">
+                    <strong>"Welcome</strong> to CRISPY TACO, where culinary excellence meets the pinnacle of luxury
+                    dining.<br>Nestled in
+                    the heart of vizag, Le Vantage is more than just a restaurant;<br>it's an exquisite dining
+                    destination
+                    that embodies sophistication, opulence, and unparalleled gastronomic indulgence.
+                </p>
+                <p class="" style="font-family:Baskerville; text-align: center; color:#c7beb4; padding-top: 15px">At CRISPY TACO, we pride ourselves on curating an extraordinary culinary experience that transcends the
+                    ordinary.<br>Our menu, meticulously crafted by our team of acclaimed chefs, showcases a symphony of
+                    flavors, textures, and aromas, using only the<br>finest and freshest ingredients sourced from around
+                    the world.</p>
+                <p class="" style="font-family:Baskerville; text-align: center; color:#c7beb4; padding-top: 15px">Step into
+                    our world of refined elegance and let our attentive staff pamper you with impeccable service,<br>
+                    ensuring that every moment spent at Le Vantage is nothing short of extraordinary. Whether you're
+                    celebrating a special occasion, hosting a corporate event,<br>or simply seeking a memorable dining
+                    experience, we invite you to indulge in the luxuries of Le Vantage.</p>
+                <p class="" style="font-family:Baskerville; text-align: center; color:#c7beb4; padding-top: 15px">Join us and
+                    discover why CRISPY TACO is more than just a restaurant—it's an unforgettable journey through the
+                    heights of culinary artistry and <strong>luxury."</strong></p>
+            </div>
+            <div class="container-fluid my-4">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <h2 class="text-center" style="font-family:Baskerville; color:#C4A484; text-align: center;">Our
+                            Team</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-sm-112 col-md-4 col-lg-4">
+                        <div class="card mx-auto" style="width: 18rem;">
+                            <img class="card-img-top" src="Screenshot 2024-02-17 174853.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h3 style="font-family:Baskerville; text-align: center;">Michael Maguire</h3>
+                                <p class="card-text" style="font-family:Baskerville; text-align: center;">General
+                                    Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-112 col-md-4 col-lg-4">
+                        <div class="card mx-auto" style="width: 18rem;">
+                            <img class="card-img-top" src="Screenshot 2024-02-17 174912.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h3 style="font-family:Baskerville; text-align: center;">Steven Yeun</h3>
+                                <p class="card-text" style="font-family:Baskerville; text-align: center;">Executive
+                                    Restaurant Chef</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-112 col-md-4 col-lg-4">
+                        <div class="card mx-auto" style="width: 18rem;">
+                            <img class="card-img-top" src="Screenshot 2024-02-17 174930.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h3 style="font-family:Baskerville; text-align: center;">David Witcher</h3>
+                                <p class="card-text" style="font-family:Baskerville; text-align: center;">Director</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p><br></p>
+            <footer class="py-7 py-md-9 bg-dark" style="padding-top:30px;">
+                <div class="container px-4">
+                    <div class="row gx-7">
+                        <div class="col-sm-4">
+                            <h5 class="text-xs text-light mb-n2 text-center"
+                                style="font-family:Baskerville; padding-top: 15px; text-align:left;">About Us
+                            </h5>
+                            <!-- Text -->
+                            <p class="mb-6 text-light text-center" style="font-family:Baskerville;">
+                                Discover culinary excellence and luxury dining at Le Vantage. Impeccable service,
+                                exquisite cuisine,
+                                unforgettable experiences.
+                            </p>
+
+                        </div>
+                        <div class="col-sm-4">
+
+                            <h5 class="text-xs text-light text-center"
+                                style="font-family:Baskerville; padding-top: 15px;">
+                                Address
+                            </h5>
+                            <p class="text-xs text-light text-center" style="font-family:Baskerville;">1st 25, 9, 30-1,
+                                Waltair Main Rd, Above PMJ Jewellwers,<br>Siripuram, Visakhapatnam, Andhra Pradesh
+                                530003</p>
+                            <h5 class="text-xs text-light text-center"
+                                style="font-family:Baskerville; padding-top: 15px;">
+                                Contact info
+                            </h5>
+                            <p class="text-xs text-light text-center" style="font-family:Baskerville;">7816024714</p>
+
+                        </div>
+                        <div class="col-sm-4">
+
+                            <!-- Heading -->
+                            <h5 class="text-xs text-light text-center"
+                                style="font-family:Baskerville; padding-top: 15px;">
+                                Opening hours
+                            </h5>
+
+                            <!-- Text -->
+                            <div class="mb-3">
+                                <div class="text-xs text-light text-center" style="font-family:Baskerville;">Monday -
+                                    Thursday</div>
+                                <div class="font-serif text-light text-center" style="font-family:Baskerville;">10:00 AM
+                                    - 11:00 PM</div>
+                            </div>
+
+                            <!-- Text -->
+                            <div class="mb-6">
+                                <div class="text-xs text-light text-center" style="font-family:Baskerville;">Friday -
+                                    Sunday</div>
+                                <div class="font-serif text-light text-center"
+                                    style="font-family:Baskerville; padding-bottom:20px;">12:00 AM - 03:00 AM</div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+</body>
+
+</html>
